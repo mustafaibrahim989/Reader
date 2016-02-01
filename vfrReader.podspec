@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
  s.name = "vfrReader"
- s.version = "2.8.7"
+ s.version = "2.8.8"
  s.license = "MIT"
  s.summary = "PDF Reader Core for iOS"
  s.homepage = "http://www.vfr.org/"
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
  s.platform = :ios
  s.ios.deployment_target = "6.0"
  s.source_files = "Sources/**/*.{h,m}"
- s.resources = "Graphics/Reader-*.png"
+ s.resources = "Graphics/Graphics.bundle"
  s.frameworks = "UIKit", "Foundation", "CoreGraphics", "QuartzCore", "ImageIO", "MessageUI"
  s.requires_arc = true
 end
