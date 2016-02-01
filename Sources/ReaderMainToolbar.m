@@ -75,7 +75,6 @@
 #if (READER_FLAT_UI == TRUE) // Option
 		UIImage *buttonH = nil; UIImage *buttonN = nil;
 #else
-        UIImage(named: bundle + country.code.lowercaseString)
 		UIImage *buttonH = [[UIImage imageNamed:@"Graphics.bundle/Reader-Button-H"] stretchableImageWithLeftCapWidth:5 topCapHeight:0];
 		UIImage *buttonN = [[UIImage imageNamed:@"Graphics.bundle/Reader-Button-N"] stretchableImageWithLeftCapWidth:5 topCapHeight:0];
 #endif // end of READER_FLAT_UI Option
