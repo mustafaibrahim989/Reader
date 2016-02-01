@@ -431,7 +431,7 @@
 
 		[imageView addSubview:tintView];
 
-		UIImage *image = [UIImage imageNamed:@"Graphics.bundle/Reader-Mark-Y"];
+		UIImage *image = [UIImage imageNamed:@"Graphics.bundle/Reader-Mark-Y" inBundle:[NSBundle bundleForClass:[self class]] compatibleWithTraitCollection:nil];
 
 		bookMark = [[UIImageView alloc] initWithImage:image];
 
